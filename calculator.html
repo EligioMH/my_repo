@@ -1,9 +1,9 @@
 <!DOCTYPE html><html><head>
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
-function cube() {
+function eleva(num) {
 var num = document.getElementById("n1");
-num.value = Math.pow(num.value, 3);
+num.value = Math.pow(num.value, num);
 }
 function sine() {
 var num = document.getElementById("n1");
@@ -15,7 +15,12 @@ num.value = Math.sin(num.value);
 <h1>Calculadora de Eligio Morgado Habas</h1>
 Number:
 <input type="text" id="n1"><p>
+<<<<<<< HEAD
 <button onclick="cube()"> x^3 </button>
 <button onclick="sine()"> sin(x) </button>
+=======
+<button onclick="eleva(3)"> x^3 </button>
+<button onclick="eleva(4)"> x^4 </button>
+>>>>>>> master
 </body>
 </html>
